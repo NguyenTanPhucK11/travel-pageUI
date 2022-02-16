@@ -239,3 +239,144 @@ body {
 
   color: #080809;
 }
+
+.bookTrip {
+  margin-top: 186px;
+}
+.bookTrip .bookTrip__subHeading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: left;
+}
+
+.bookTrip .bookTrip__heading {
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+}
+
+.card-values {
+  text-align: left;
+  margin-bottom: 4px;
+}
+.card-values .card-values__card {
+  border: 0px;
+}
+.card-values .card-values__icon {
+  border-radius: 13px;
+  position: absolute;
+  top: 25%;
+}
+
+.btn--values {
+  background: #f0bb1f;
+  color: hsl(0, 0%, 100%);
+}
+
+.btn--payment {
+  background: #f15a2b;
+  color: hsl(0, 0%, 100%);
+}
+.btn--airport {
+  background: #006380;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-values .card-values__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+
+.card-values .card-values__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+
+.bookTrip .bookTrip__card {
+  padding: 0px;
+  border: 0px;
+  margin: 0px 18px 0px 18px;
+  border-radius: 24px;
+  align-items: center;
+  justify-content: center;
+  /* width: 267px;
+  height: 314px; */
+
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+    drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
+    drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481))
+    drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+    drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185))
+    drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+
+.bookTrip__card--img {
+  /* height: 150px; */
+  width: 90%;
+  border-radius: 24px;
+  margin-bottom: 25px;
+}
+
+.bookTrip-card-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 124.5%;
+  letter-spacing: 0.015em;
+  color: #080809;
+  margin-bottom: 13px;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+.bookTrip-card-subtitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 124.5%;
+  /* identical to box height, or 20px */
+  letter-spacing: -0.005em;
+
+  /* text 2 */
+  color: #84829a;
+  margin-bottom: 20px;
+}
+.bookTrip-card-option {
+  width: 36px;
+  height: 36px;
+  background: #f5f5f5;
+  margin-bottom: 30px;
+}
+.bookTrip-card-option .bookTrip-card-option__icon {
+  color: #84829a;
+}
+.bookTrip-card-quantity {
+  float: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 124.5%;
+  /* identical to box height, or 20px */
+  letter-spacing: -0.02em;
+
+  /* text 2 */
+  color: #84829a;
+}
