@@ -104,15 +104,6 @@ body {
   color: #ffffff;
 }
 
-.card:hover {
-  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
-    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
-    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
-    0px 20px 13px rgba(0, 0, 0, 0.01),
-    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
-    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-}
-
 .category {
   text-align: center;
   align-items: center;
@@ -152,13 +143,99 @@ body {
   height: 314px;
 }
 
+.category__card:hover {
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
 .category__card--img {
   margin-top: 40px !important;
-  width: 137px;
+  width: 50%;
+  /* height: 400px; */
 }
 .card-body {
   /* margin: 40px 0px 0px 0px; */
+  width: 100%;
+  color: #5e6282;
 }
 .card-text {
-  margin: 0px 30px 0px 30px;
+  /* margin: 0px 30px 0px 30px; */
+}
+.card-title {
+  color: #1e1d4c;
+}
+.destination {
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin-top: 150px;
+}
+
+.destination .destination__name {
+  margin-bottom: 8px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #5e6282;
+}
+.destination .destination__name--right {
+  text-align: right;
+}
+
+.destination .destination__text {
+  margin-bottom: 60px;
+  font-family: Volkhov;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.destination .destination__card {
+  padding: 0px;
+
+  border: 0px;
+  margin: 0px 18px 0px 18px;
+  border-radius: 24px;
+  align-items: center;
+  justify-content: center;
+  /* width: 267px;
+  height: 314px; */
+
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+    drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
+    drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481))
+    drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+    drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185))
+    drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+.destination__card--img {
+  /* width: 200px; */
+  height: 400px;
+  border-radius: 24px 24px 0px 0px;
+}
+
+.description .destination__info {
+  /* padding: 32px; */
+  /* padding-right: 24px !important; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: 16px !important; */
+  line-height: 124.5%;
+  color: #5e6282;
+}
+
+.destination__info--icon {
+  margin-bottom: 25px;
+
+  color: #080809;
 }
