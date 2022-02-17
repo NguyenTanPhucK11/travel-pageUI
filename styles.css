@@ -5,8 +5,8 @@ body {
 .logo {
   border-radius: 0px;
 }
-.card{
-  border:0px;
+.card {
+  border: 0px;
 }
 .menu {
   height: 22px;
@@ -543,4 +543,43 @@ body {
   color: #5e6282;
 }
 .testi__card__pagination {
+}
+
+.logos {
+  margin-top: 100px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.logos-card-img {
+  width: 80%;
+}
+
+.card-img:hover {
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 10px;
+}
+
+.section {
+  margin-top: 150px;
+}
+
+.section-subcribe {
+  text-align: center;
+  margin: 40px 100px 40px 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 54px;
+  /* or 164% */
+
+  /* TEXT CLR */
+  color: #5e6282;
 }
