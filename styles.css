@@ -1,11 +1,13 @@
 body {
-  margin: 50px 150px 0px 100px;
+  margin: 50px 180px 0px 100px;
 }
 
 .logo {
   border-radius: 0px;
 }
-
+.card{
+  border:0px;
+}
 .menu {
   height: 22px;
   border-radius: 0;
@@ -442,4 +444,103 @@ body {
 }
 .progress-bar {
   background-color: #8a79df;
+}
+/* testimonial */
+.testi {
+  margin-top: 200px;
+}
+
+.testi .testi__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5e6282;
+}
+
+.testi .testi__heading {
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+  text-transform: capitalize;
+  color: #14183e;
+}
+
+.testi .testi__slider {
+  margin-top: 80px;
+  color: #e5e5e5;
+}
+
+.testi__slider__active {
+  color: #39425d;
+}
+
+.testi__card {
+  width: 80%;
+  border: 0px;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 10px;
+}
+
+.testi-hide {
+  position: absolute;
+  z-index: 0;
+  top: 30%;
+  left: 15%;
+  right: -8%;
+}
+.testi-show {
+  position: absolute;
+  z-index: 1;
+}
+.testi__card__img {
+  width: 60%;
+  position: absolute;
+  top: -15%;
+  left: -5%;
+}
+.testi__card__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  /* TEXT CLR */
+  width: 90%;
+  color: #5e6282;
+  margin-bottom: 30px;
+}
+.testi__card__name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  /* TEXT CLR */
+  color: #5e6282;
+}
+.testi__card__info {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  /* TEXT CLR */
+  color: #5e6282;
+}
+.testi__card__pagination {
 }
