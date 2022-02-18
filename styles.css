@@ -556,14 +556,12 @@ body {
   margin-top: 150px;
 }
 
-.section-card {
-}
 .section-img {
   transform: matrix(-1, 0, 0, 1, 0, 0);
   background: #dfd7f9;
   border-radius: 20px 129px 20px 20px;
   opacity: 0.2;
-  width: 1170;
+  /* width: 1170; */
   height: 400px;
 }
 .section-subscribe {
@@ -595,7 +593,6 @@ body {
 }
 
 .subscribe-icon {
-  width: 60%;
   position: absolute;
   top: -5%;
   left: 97%;
@@ -606,12 +603,6 @@ body {
   background: linear-gradient(201.65deg, #747def 10.27%, #5e3be1 100%);
 }
 
-/* .div--discover {
-  font-size: 10px;
-  background: #080809;
-  border-radius: 17.5px;
-  color: #ffffff;
-} */
 .btn-discover {
   color: black;
   border-radius: 100%;
@@ -745,9 +736,6 @@ body {
   font-weight: bold;
   font-size: 21px;
   line-height: 124.5%;
-  /* or 26px */
-
-  /* black */
   color: #080809;
 }
 
@@ -786,8 +774,3 @@ body {
   src: url(font/Volkhov/Volkhov-Regular.ttf);
 }
 
-/* @media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (-webkit-min-device-pixel-ratio: 3) {
-  html{
-    width: 844px;
-  }
-} */
