@@ -21,9 +21,15 @@ body {
 }
 
 .traveller {
-  float: right;
-  width: 765;
-  height: 765;
+  float: left;
+  /* width: 500px;
+  height: 500px; */
+}
+
+.traveller-img{
+  vertical-align: auto;
+  width: 500px;
+  height: 765px;
 }
 .description {
   /* background-color: red; */
@@ -112,6 +118,7 @@ body {
   justify-content: center;
   margin-top: 100px;
 }
+
 
 .category .category__name {
   font-family: Poppins;
