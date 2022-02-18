@@ -26,7 +26,7 @@ body {
   height: 500px; */
 }
 
-.traveller-img{
+.traveller-img {
   vertical-align: auto;
   width: 500px;
   height: 765px;
@@ -118,7 +118,6 @@ body {
   justify-content: center;
   margin-top: 100px;
 }
-
 
 .category .category__name {
   font-family: Poppins-Regular;
@@ -735,8 +734,8 @@ body {
   padding: 0px 0px 0px 0px;
 }
 
-.col--desc{
-  padding: 20px ;
+.col--desc {
+  padding: 20px;
 }
 
 .nav-title {
@@ -779,10 +778,16 @@ body {
 
 @font-face {
   font-family: Google Sans;
-  src: url(font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+  src: url(font/Open_Sans/OpenSans-VariableFont_wdth\wght.ttf);
 }
 
 @font-face {
   font-family: Volkhov;
   src: url(font/Volkhov/Volkhov-Regular.ttf);
+}
+
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (-webkit-min-device-pixel-ratio: 3) {
+  html{
+    width: 844px;
+  }
 }
