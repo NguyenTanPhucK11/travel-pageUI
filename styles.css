@@ -273,7 +273,7 @@ body {
 .card-values .card-values__icon {
   border-radius: 13px;
   position: absolute;
-  top: 25%;
+  top: 10%;
 }
 
 .btn--values {
@@ -315,9 +315,6 @@ body {
   border-radius: 24px;
   align-items: center;
   justify-content: center;
-  /* width: 267px;
-  height: 314px; */
-
   filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
     drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852))
     drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481))
@@ -327,7 +324,6 @@ body {
 }
 
 .bookTrip__card--img {
-  /* height: 150px; */
   width: 90%;
   border-radius: 24px;
   margin-bottom: 25px;
@@ -353,10 +349,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 124.5%;
-  /* identical to box height, or 20px */
   letter-spacing: -0.005em;
-
-  /* text 2 */
   color: #84829a;
   margin-bottom: 20px;
 }
@@ -376,10 +369,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 124.5%;
-  /* identical to box height, or 20px */
   letter-spacing: -0.02em;
-
-  /* text 2 */
   color: #84829a;
 }
 .ongoing {
@@ -513,9 +503,6 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
-  /* or 200% */
-
-  /* TEXT CLR */
   width: 90%;
   color: #5e6282;
   margin-bottom: 30px;
@@ -526,9 +513,6 @@ body {
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
-
-  /* TEXT CLR */
   color: #5e6282;
 }
 .testi__card__info {
@@ -537,9 +521,6 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 21px;
-  /* identical to box height */
-
-  /* TEXT CLR */
   color: #5e6282;
 }
 .testi__card__pagination {
@@ -548,7 +529,6 @@ body {
 .logos {
   margin-top: 100px;
   display: flex;
-
   justify-content: space-between;
 }
 
@@ -568,8 +548,6 @@ body {
 
 .section {
   margin-top: 150px;
-  /* justify-self: center; */
-  /* align-items: center; */
 }
 
 .section-card {
@@ -579,22 +557,17 @@ body {
   background: #dfd7f9;
   border-radius: 20px 129px 20px 20px;
   opacity: 0.2;
-
   width: 1170;
   height: 400px;
 }
 .section-subscribe {
   text-align: center;
-
   margin: 40px 100px 40px 100px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   font-size: 33px;
   line-height: 54px;
-  /* or 164% */
-
-  /* TEXT CLR */
   color: #5e6282;
 }
 .input-group {
@@ -627,12 +600,163 @@ body {
   background: linear-gradient(201.65deg, #747def 10.27%, #5e3be1 100%);
 }
 
-.div--discover {
+/* .div--discover {
   font-size: 10px;
-
   background: #080809;
   border-radius: 17.5px;
   color: #ffffff;
+} */
+.btn-discover {
+  color: black;
+  border-radius: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
+.btn-discover-social {
+  color: #ffffff;
+  border-radius: 100%;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #b8d2f1 0deg,
+    #f289aa 60deg,
+    #c68bf0 106.09deg,
+    #d164da 153.75deg,
+    #c963e8 221.25deg,
+    #bfc2e8 258.75deg,
+    #ffc999 288.75deg,
+    #d0d8c9 315deg,
+    #bad0f1 334.13deg,
+    #ced8cb 358.97deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.discover-your-app {
+  padding: 25px 0px 15px 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 124.5%;
+  letter-spacing: 0.005em;
+  color: #5e6282;
+}
+
 .btn-discover-title {
+}
+
+.company-desc {
+  margin-top: 160px;
+  float: left;
+}
+
+.desc-name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 66px;
+  padding-bottom: 20px;
+  color: #181e4b;
+}
+
+.desc-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+
+.card-discover {
+  text-align: left;
+  width: 100%;
+}
+.card-discover .card-discover__card {
+  border: 0px;
+  background: black;
+  border-radius: 17.5px;
+}
+.card-discover .card-discover__icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 13px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: #ffffff;
+}
+
+.card-discover .card-discover__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7px;
+  /* line-height: 124.5%; */
+  color: #ffffff;
+  margin: 0px;
+}
+
+.card-discover__title--apple {
+  font-weight: normal !important;
+}
+
+.card-discover .card-discover__text {
+  margin: 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  /* line-height: 124.5%; */
+  color: #ffffff;
+}
+.card-discover__text--apple {
+  font-weight: bold !important;
+}
+
+.h5--discover {
+  margin-bottom: 0rem;
+}
+
+.card-body--discover {
+  padding: 4px !important;
+}
+
+.col--discover {
+  padding: 0px 0px 0px 0px;
+}
+
+.nav-title {
+  padding-bottom: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 124.5%;
+  /* or 26px */
+
+  /* black */
+  color: #080809;
+}
+
+.nav-sub {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 124.5%;
+  color: #5e6282;
+}
+
+.copyright {
+  text-align: center;
+  margin: 80px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 124.5%;
+  color: #5e6282;
 }
