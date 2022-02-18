@@ -1,5 +1,5 @@
 body {
-  margin: 50px 180px 0px 100px;
+  margin: 50px 100px 0px 100px;
 }
 
 .logo {
@@ -45,7 +45,7 @@ body {
   color: #df6951;
   left: 150px;
   top: 217px;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -77,7 +77,7 @@ body {
   color: #5e6282;
   margin-bottom: 30px;
   border-radius: nullpx;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -121,7 +121,7 @@ body {
 
 
 .category .category__name {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -184,7 +184,7 @@ body {
 
 .destination .destination__name {
   margin-bottom: 8px;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -235,7 +235,7 @@ body {
 .description .destination__info {
   /* padding: 32px; */
   /* padding-right: 24px !important; */
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   /* font-size: 16px !important; */
@@ -253,7 +253,7 @@ body {
   margin-top: 186px;
 }
 .bookTrip .bookTrip__subHeading {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -280,7 +280,7 @@ body {
 .card-values .card-values__icon {
   border-radius: 13px;
   position: absolute;
-  top: 10%;
+  top: 15%;
 }
 
 .btn--values {
@@ -298,7 +298,7 @@ body {
 }
 
 .card-values .card-values__title {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -307,7 +307,7 @@ body {
 }
 
 .card-values .card-values__text {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -337,7 +337,7 @@ body {
 }
 
 .bookTrip-card-title {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -351,7 +351,7 @@ body {
   height: 500px;
 }
 .bookTrip-card-subtitle {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -371,7 +371,7 @@ body {
 }
 .bookTrip-card-quantity {
   /* float: left; */
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -407,7 +407,7 @@ body {
 }
 
 .card-ongoing .card-ongoing__title {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -417,7 +417,7 @@ body {
 }
 
 .card-ongoing .card-ongoing__text {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -427,7 +427,7 @@ body {
 }
 
 .card-ongoing .card-ongoing__percent {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -448,7 +448,7 @@ body {
 }
 
 .testi .testi__title {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -505,7 +505,7 @@ body {
   left: -5%;
 }
 .testi__card__text {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -515,7 +515,7 @@ body {
   margin-bottom: 30px;
 }
 .testi__card__name {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -523,7 +523,7 @@ body {
   color: #5e6282;
 }
 .testi__card__info {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -570,7 +570,7 @@ body {
 .section-subscribe {
   text-align: center;
   margin: 40px 100px 40px 100px;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: 600;
   font-size: 33px;
@@ -641,7 +641,7 @@ body {
 
 .discover-your-app {
   padding: 25px 0px 15px 0px;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -659,7 +659,7 @@ body {
 }
 
 .desc-name {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 44px;
@@ -669,7 +669,7 @@ body {
 }
 
 .desc-text {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
@@ -697,7 +697,7 @@ body {
 }
 
 .card-discover .card-discover__title {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: bold;
   font-size: 7px;
@@ -712,7 +712,7 @@ body {
 
 .card-discover .card-discover__text {
   margin: 0px;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 8px;
@@ -735,9 +735,13 @@ body {
   padding: 0px 0px 0px 0px;
 }
 
+.col--desc{
+  padding: 20px ;
+}
+
 .nav-title {
   padding-bottom: 30px;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
@@ -749,7 +753,7 @@ body {
 }
 
 .nav-sub {
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -760,10 +764,25 @@ body {
 .copyright {
   text-align: center;
   margin: 80px;
-  font-family: Poppins;
+  font-family: Poppins-Regular;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 124.5%;
   color: #5e6282;
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(./font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Google Sans;
+  src: url(font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: Volkhov;
+  src: url(font/Volkhov/Volkhov-Regular.ttf);
 }
