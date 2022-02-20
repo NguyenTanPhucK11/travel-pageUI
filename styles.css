@@ -469,11 +469,22 @@ body {
 
 .carousel-indicators {
   margin-bottom: -80px !important;
+  /* float: left !important; */
+  right: auto;
+  margin-left: auto;
+}
+
+.carousel-indicators [data-bs-target] {
+  /* width: 10px; */
+  width: 12px;
+  margin-right: 20px;
+  height: 12px;
+  border-radius: 50%;
 }
 
 .testi .testi__slider {
   margin-top: 80px;
-  
+
   /* color: #e5e5e5; */
 }
 
@@ -496,9 +507,9 @@ body {
 .testi-hide {
   position: absolute;
   z-index: 0;
-  top: 30%;
-  left: 15%;
-  right: -8%;
+  top: 55%;
+  left: 12%;
+  /* right: -8%; */
 }
 .testi-show {
   position: absolute;
@@ -1041,29 +1052,29 @@ body {
   .company-desc {
     margin-top: 80px;
   }
-  
+
   .desc-name {
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 20px;
   }
-  
+
   .desc-text {
     font-size: 8px;
     line-height: 124.5%;
     color: #5e6282;
   }
-  
-  .discover{
+
+  .discover {
     width: 10px;
     height: 10px;
   }
 
-  .btn-discover-social{
+  .btn-discover-social {
     width: 10px !important;
     height: 10px;
   }
- 
+
   .card-discover .card-discover__icon {
     width: 10px;
     height: 10px;
@@ -1073,16 +1084,16 @@ body {
     left: 10%;
     color: #ffffff;
   }
-  
+
   .card-discover .card-discover__title {
     font-size: 7px;
     /* line-height: 124.5%; */
   }
-  
+
   .card-discover__title--apple {
     font-weight: normal !important;
   }
-  
+
   .card-discover .card-discover__text {
     margin: 0px;
     font-size: 8px;
@@ -1092,23 +1103,23 @@ body {
   .card-discover__text--apple {
     font-weight: bold !important;
   }
-  
+
   .h5--discover {
     margin-bottom: 0rem;
   }
-  
+
   .card-body--discover {
     padding: 4px !important;
   }
-  
+
   .col--discover {
     padding: 0px 0px 0px 0px;
   }
-  
+
   .col--desc {
     padding: 20px;
   }
-  
+
   .nav-title {
     padding-bottom: 15px;
     font-family: Poppins-Regular;
@@ -1118,7 +1129,7 @@ body {
     line-height: 124.5%;
     color: #080809;
   }
-  
+
   .nav-sub {
     font-family: Poppins-Regular;
     font-style: normal;
@@ -1127,7 +1138,7 @@ body {
     line-height: 124.5%;
     color: #5e6282;
   }
-  
+
   .copyright {
     text-align: center;
     margin: 40px;
