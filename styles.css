@@ -194,6 +194,10 @@ body {
   text-align: right;
 }
 
+.top-destination{
+  /* max-width: 80%; */
+}
+
 .destination .destination__text {
   margin-bottom: 60px;
   font-family: Volkhov;
@@ -207,7 +211,6 @@ body {
 
 .destination .destination__card {
   padding: 0px;
-
   border: 0px;
   margin: 0px 18px 0px 18px;
   border-radius: 24px;
