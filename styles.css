@@ -467,9 +467,14 @@ body {
   color: #14183e;
 }
 
+.carousel-indicators {
+  margin-bottom: -80px !important;
+}
+
 .testi .testi__slider {
   margin-top: 80px;
-  color: #e5e5e5;
+  
+  /* color: #e5e5e5; */
 }
 
 .testi__slider__active {
@@ -535,7 +540,7 @@ body {
 }
 
 .logos {
-  margin-top: 100px;
+  margin-top: 200px;
   display: flex;
   justify-content: space-between;
 }
