@@ -114,6 +114,7 @@ body {
   justify-content: center;
   margin-top: 100px;
 }
+/* rectangle */
 
 .category .category__name {
   font-family: Poppins-Regular;
@@ -135,16 +136,34 @@ body {
   letter-spacing: 0em;
   text-align: center;
 }
+.category-hide {
+  position: absolute;
+  z-index: 0;
 
+  /* top :80%; */
+}
+.category-show {
+  position: absolute;
+  z-index: 1;
+}
+.category-rec {
+  position: absolute;
+  z-index: 0;
+
+  width: 100px;
+  height: 100px;
+  background: #df6951;
+  border-radius: 30px 0px 10px;
+  bottom: -10%;
+  left: -15%;
+}
 .category .category__card {
   border: 0px;
   margin: 0px 18px 0px 18px;
   border-radius: 36px;
-
+  background: yellow;
   align-items: center;
   justify-content: center;
-  /* width: 267px;
-  height: 314px; */
 }
 
 .category__card:hover {
@@ -1018,10 +1037,10 @@ body {
     line-height: 124.5%;
   }
 
-  .discover {
+  /* .discover {
     width: 10px;
     height: 10px;
-  }
+  } */
   .discover-your-app {
     padding: 25px 0px 15px 0px;
     font-size: 10px;
@@ -1254,6 +1273,7 @@ body {
   .testi {
     margin-top: 100px;
   }
+
   .testi__card__text {
     font-size: 10px;
     line-height: 16px;
@@ -1319,20 +1339,20 @@ body {
     font-size: 12px;
     line-height: 124.5%;
   }
-
+  /* 
   .discover {
     width: 10px;
     height: 10px;
-  }
+  } */
 
   .discover-your-app {
     font-size: 16px;
   }
 
-  .btn-discover-social {
+  /* .btn-discover-social {
     width: 10px !important;
     height: 10px;
-  }
+  } */
 
   .card-discover .card-discover__icon {
     width: 10px;
@@ -1374,6 +1394,357 @@ body {
 
   .col--desc {
     padding: 20px;
+  }
+
+  .discover {
+    width: 12px !important;
+    height: 12px !important;
+  }
+  .btn-discover {
+    font-size: 10px;
+  }
+
+  .btn-discover-social {
+    font-size: 10px;
+  }
+
+  .row--discover {
+    padding-left: 0px !important;
+  }
+
+  .icon-discover {
+    position: absolute;
+    size: 20px;
+  }
+
+  .nav-title {
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 124.5%;
+  }
+
+  .nav-sub {
+    font-size: 12px;
+    line-height: 124.5%;
+  }
+
+  .copyright {
+    margin: 40px;
+    font-size: 14px;
+    line-height: 124.5%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  body {
+    background-color: lightgreen;
+    margin: 5% 10% 0px 10%;
+  }
+
+  .menu {
+    height: 22px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .container-fluid {
+    padding-left: 0px;
+  }
+  .btn--menu {
+    text-align: start;
+    padding-left: 0px;
+  }
+  .traveller {
+    margin-top: 250px;
+    float: left;
+  }
+
+  .traveller-img {
+    width: 150px;
+    height: 250px;
+  }
+  .description {
+    font-size: 10;
+  }
+
+  .description .description__tagline {
+    margin-bottom: 80px;
+    margin-top: 250px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .description .description__heading {
+    width: 100%;
+    left: 150px;
+    top: 271px;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .description .description__desc {
+    height: 90px;
+    width: 100%;
+    left: 148px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .cta {
+    font-size: 8px !important;
+    margin-top: 250px;
+  }
+
+  .btn--cta {
+    float: left;
+    font-size: 12px;
+  }
+  .btn--cta__play {
+    margin-right: 10px;
+  }
+
+  .category {
+    margin-top: 40px;
+  }
+
+  .card-values .card-values__title {
+    font-size: 12px;
+  }
+
+  .card-values .card-values__text {
+    font-size: 12px;
+  }
+
+  .card-values .card-values__icon {
+    top: 15%;
+    margin-right: 10px;
+  }
+  .bookTrip__card {
+    height: 350px;
+  }
+
+  .bookTrip .bookTrip__heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .bookTrip__card--img {
+    width: 90%;
+    border-radius: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+
+  .bookTrip .bookTrip__card {
+    margin: 0px 12px 0px 12px;
+  }
+
+  .bookTrip-card-title {
+    font-size: 18px;
+    margin-bottom: 13px;
+  }
+
+  .bookTrip-card-subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .bookTrip-card-option {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 15px;
+    margin-left: 0px !important;
+    font-size: 8px;
+  }
+
+  .bookTrip-card-quantity {
+    font-size: 8px;
+  }
+
+  .col-quantity {
+    padding-left: 0px;
+    padding-right: 6px;
+  }
+
+  .icon-heart {
+    font-size: 8px;
+  }
+  .ongoing {
+    width: 70%;
+    top: 35%;
+    left: 75%;
+  }
+  .card-ongoing .card-ongoing__img {
+    margin: 0px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .card-ongoing .card-ongoing__title {
+    font-size: 7px;
+  }
+
+  .card-ongoing .card-ongoing__text {
+    font-size: 8px;
+  }
+
+  .card-ongoing .card-ongoing__percent {
+    font-size: 7px;
+  }
+  .testi {
+    margin-top: 100px;
+  }
+
+  .testi .testi__heading {
+    font-size: 30px;
+    line-height: 44px;
+    color: #14183e;
+  }
+  .testi__card__text {
+    font-size: 10px;
+    line-height: 16px;
+    width: 90%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .testi__card__name {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .testi__card__info {
+    font-size: 8px;
+  }
+  .testi-hide {
+    top: 30%;
+    left: 23%;
+  }
+
+  .section {
+    margin-top: 75px;
+  }
+
+  .section-img {
+    height: 230px;
+  }
+  .section-subscribe {
+    margin: 20px 50px 20px 50px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .form-control {
+    font-size: 0.5rem;
+  }
+
+  .input-group {
+    border: 0px;
+  }
+  .email-input {
+    height: 40px;
+  }
+
+  .btn--subscribe {
+    padding: 0px;
+    font-size: 8px;
+    height: 40px;
+  }
+
+  .subscribe-icon {
+    position: absolute;
+    top: -8%;
+    left: 94%;
+  }
+
+  .company-desc {
+    margin-top: 80px;
+  }
+
+  .desc-name {
+    font-size: 20px;
+    top: 10%;
+
+    line-height: 30px;
+    padding-bottom: 20px;
+  }
+
+  .desc-text {
+    font-size: 8px;
+    line-height: 124.5%;
+  }
+
+  /* .discover {
+    width: 10px;
+    height: 10px;
+  } */
+
+  .card-discover .card-discover__icon {
+    width: 5px;
+    height: 5px;
+    font-size: .5rem;
+    border-radius: 13px;
+    top: 30%;
+    left: 10%;
+  }
+
+  .card-discover .card-discover__title {
+    font-size: 5px;
+    /* line-height: 124.5%; */
+  }
+
+  .card-discover__title--apple {
+    font-weight: normal !important;
+  }
+
+  .card-discover .card-discover__text {
+    margin: 0px;
+    font-size: 5px;
+    color: #ffffff;
+  }
+  .card-discover__text--apple {
+    font-weight: bold !important;
+  }
+
+  .h5--discover {
+    margin-bottom: 0rem;
+  }
+
+  .card-body--discover {
+    padding: 4px !important;
+  }
+
+  .col--discover {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .col--desc {
+    padding: 20px;
+  }
+
+  .discover {
+    width: 8px !important;
+    height: 8px !important;
+    padding: 2px !important;
+
+  }
+  .btn-discover {
+    font-size: 6px;
+  }
+
+  .btn-discover-social {
+    font-size: 6px;
+  }
+
+  .row--discover {
+    padding-left: 0px !important;
+  }
+
+  .discover-your-app{
+    padding: 10px 0px 15px 0px;
+    font-size: 8px;
+  }
+
+  .icon-discover {
+    position: absolute;
+    size: 20px;
   }
 
   .nav-title {
